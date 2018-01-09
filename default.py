@@ -1,5 +1,5 @@
 '''
-    cloudstream XBMC Plugin
+    uptoboxstreaming XBMC Plugin
     Copyright (C) 2013-2014 ddurdle
 
     This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@ import re
 import xbmc, xbmcgui, xbmcplugin, xbmcaddon
 
 # global variables
-PLUGIN_NAME = 'plugin.video.cloudstream'
+PLUGIN_NAME = 'plugin.video.uptoboxstreaming'
 PLUGIN_URL = 'plugin://'+PLUGIN_NAME+'/'
 ADDON = xbmcaddon.Addon(id=PLUGIN_NAME)
 
@@ -183,7 +183,7 @@ if mode == 'main' or mode == 'folder':
                     domain = ADDON.getSetting(instanceName+'_domain')
                     if domain == 'CUSTOM':
                         domain = ADDON.getSetting(instanceName+'_domain_custom')
-                    addDirectory('plugin://plugin.video.cloudstream?mode=main&instance='+instanceName,domain + '-'+username)
+                    addDirectory('plugin://plugin.video.uptoboxstreaming?mode=main&instance='+instanceName,domain + '-'+username)
             except:
                 break
             if count == max_count:
