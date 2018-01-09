@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.uptoboxstreaming" version="0.0.1" name="UpToBox Streaming" provider-name="vic1997">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Un addon permettant le streaming de son compte UpToBox</summary>
+        <description>Faites du streaming avec votre compte premium UpToBox ! Regardez les films téléchargé directement sur votre compte UpToBox !</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

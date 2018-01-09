@@ -1,0 +1,3 @@
+Version 0.0.1 (09/01/2018)
+- Création de l'addon avec comme base CloudStream.
+- Le but étant de proposer un plugin accédent aux fichier d'un compte UpToBox.
